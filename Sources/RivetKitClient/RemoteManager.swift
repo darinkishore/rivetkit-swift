@@ -334,7 +334,7 @@ struct MetadataResponse: Decodable, Sendable {
     let runtime: String
     let version: String
     let runner: MetadataRunner?
-    let actorNames: [String: MetadataActorName]
+    let actorNames: [String: MetadataActorName]?
     let clientEndpoint: String?
     let clientNamespace: String?
     let clientToken: String?
